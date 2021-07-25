@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+         header{
+            display: flex;
+            
+        }
+
+         #left{
+             display: flex;
+             align-self: flex-start;
+          }
+
+         #right{
+             display: flex;
+             position:absolute;
+             right: 20px;
+         }
+
+         .head1 p{
+             width: 4.5em;
+             
+             text-align: center;
+            
+         }
+
+         #signin{
+             background-color: #4285f4;
+             color: white;
+             font-weight: bold;
+             width: 75px;
+             height:25px;
+             margin-top: 14px;
+             
+         }
+    </style>
+
+</head>
+<body>
+    <header class="head1">
+        <div id="left">
+            <p><a href="">About </a></p>
+            <p><a href="">Store</a></p>
+        </div>
+        <div id="right">
+
+            <p><a href=""> Gmail </a></p>
+            <p><a href="">Images</a></p>
+            <p><a href=""> Icon</a></p>
+            <input id = "signin" type="submit" value="Sign in">
+
+        </div>
+
+    </header>
+    <main>
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        </div>
+        <div id="search_bar">
+            <img src="magnifying_glass">
+
+            <input id="search_here" type="text">
+            <a href=""><img src="mic_img"></a>
+        </div>
+        <div class="mid_buttons">
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
+        </div>
+    </main>
+    <footer>
+        <a href="">Advertising</a>
+        <a href="">Business</a>
+        <a href="">How Search works</a>
+    </footer>
+
+    </div>
+</body>
