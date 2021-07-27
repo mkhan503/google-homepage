@@ -1,0 +1,11 @@
+
+         #left{
+            display: flex;
+            align-self: flex-start;
+         }
+
+        #right{
+            display: flex;
+            position:absolute;
+            right: 20px;
+        }
