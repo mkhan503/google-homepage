@@ -3,128 +3,7 @@
     <meta charset="UTF-8">
     <title>Google</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-           }
-
-        .material-icons{
-            color: gray;
-        }
-        
-        a{
-            text-decoration: none;
-            color:black;
-         }
-        
-        a:hover{
-            text-decoration: underline;
-        }
-        
-        header{
-            display: flex;
-            justify-content: space-between;
-                    
-        }
-
-        footer{
-            background-color:lightgrey;
-            display: flex;
-            justify-content:space-between;
-            position: fixed;
-            bottom:3px;
-            width:100%;
-            
-        
-        }
-
-
-        .head1 p{
-             width: 4.5em;
-             
-             text-align: center;
-        }
-
-         #signin{
-             background-color: #4285f4;
-             color: white;
-             font-weight: bold;
-             width: 75px;
-             height:28px;
-             margin-top: 14px;
-             border-radius: 3px;
-             border-style: solid;
-             border-color:  #4285f4;
-        }
-
-         #logo{
-             
-             width:fit-content;
-             margin:auto;
-             margin-top: 140px;
-             margin-bottom: 30px;
-        }
-
-         #search_area{
-             
-             width:fit-content;
-             margin:auto;
-         }
-
-         #search{
-             width: 380px;
-             height:35px;
-             padding-left:8px;
-             border-right-width:0px;
-             border-left-width: 0px;
-             border-style:solid;
-             border-color:lightgray;
-                      
-         }
-         #two_buttons{
-
-         }
-
-         #search_area{
-             display:flex;
-             border-radius:15px;
-             height:40px;
-         }
-
-         #search_area:hover{
-             box-shadow: 3px 3px 8px lightgrey;
-         }
-
-         input:focus{
-             outline: none;
-             
-         }
-        #mag_glass{
-             border-top: 2px solid #d3d3d3;
-             border-bottom: 2px solid lightgray;
-             height: 31px;
-             padding-top:6px;
-             padding-left:5px;
-             
-             border-left: 2px solid lightgray;
-             border-top-left-radius: 17px;
-             border-bottom-left-radius:17px;
-         }
-
-         #microphone{
-             height: 21px;
-            
-             border: 2px solid lightgray;
-             padding:8px;
-             padding-right:12px;
-             border-left-width: 0px;
-             border-top-right-radius: 17px;
-             border-bottom-right-radius:17px;
-
-         }
-
-       
-    </style>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
@@ -136,13 +15,19 @@
 
         <div id="right">
 
-            <a href=""> Gmail </a>
-            <a href="">Images</a>
+            <div class="text">
+                <a  href=""> Gmail </a>
+                <a href="">Images</a>
+            </div>
+
+           
             <a href=""><span class="material-icons">
                 apps
                 </span>
             </a>
-            <input id = "signin" type="submit" value="Sign in">
+             
+           <input id = "signin" type="submit" value="Sign in">
+            
 
         </div>
 
@@ -164,6 +49,7 @@
 
         <div id="two_buttons">
             <input type="submit" value="Google Search">
+            <div></div>
             <input type="submit" value="I'm Feeling Lucky">
 
         </div>
