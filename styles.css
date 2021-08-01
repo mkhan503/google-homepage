@@ -20,7 +20,7 @@ a:hover{
 }
 
 #right{
-    display: flex;
+    display:flex;
 
 }
 
@@ -68,7 +68,8 @@ footer{
   
 }
 
-#left_f, #right_f{
+#left_f, 
+#right_f{
     
     height:30px;
     padding-top:10px;
@@ -78,6 +79,7 @@ footer a{
     margin-left:15px;
     margin-right:10px;
 }
+
  #signin{
      background-color: #4285f4;
      color: white;
@@ -103,6 +105,7 @@ footer a{
 
 
  #search{
+     
      width: 380px;
      height: 25px;
      border-width:0px;
@@ -111,19 +114,17 @@ footer a{
      text-indent: 40px;
      padding-top:10px;
      margin-left:10px;
-   
      background-image: url(/images/1x/outline_search_black_24dp.png);
      background-repeat: no-repeat;
-     background-position: 8px;
-    
-     
-              
+     background-position: 5px 6px;
+     font-size: 18px;
+            
  }
  
  #mic{
      width:15px;
      margin-left: 60px;
-     margin-top: 10px;
+     margin-top: 14px;
      
  }
 
@@ -132,23 +133,17 @@ footer a{
     border:1px solid lightgray;
     width:500px;
     margin:auto;
-    height: 45px;
+    height: 50px;
     border-radius: 25px;
  }
 
-
-
- #search_area:hover{
-     box-shadow: 3px 3px 8px lightgrey;
- }
-
- #search_area:active{
+ #search_area:hover,
+ #search_area:focus-within{
      
     box-shadow: 3px 3px 8px lightgrey;
 
  }
 
- 
 
  input:focus{
      outline: none;
@@ -156,15 +151,11 @@ footer a{
      
  }
 
-
-
-
  #two_buttons{
      
      display: flex;
      justify-content: center;
-     margin-top: 25px;
-     
+     margin-top: 25px;    
      
  }
 
